@@ -1,24 +1,30 @@
      Principais Comandos no Linux
 
-- man = Esse comando é o equivalente ao --help, ele traz toda a forma de manual do sistema;
+- man => Esse comando é o equivalente ao --help, ele traz toda a forma de manual do sistema;
 
-- --help = é um comando que nos presta algum tipo de ajuda;
+- --help => é um comando que nos presta algum tipo de ajuda;
 
-- su = Esse comando é dos super ususário ele é que da as permissões de acesso ao sistema;
+- su => Esse comando é dos super ususário ele é que da as permissões de acesso ao sistema;
 
-- sudo = É um comando de tem a capacidade de se tornar um super usuário, tipo administrador até mesmo podendo trocar a senha do su* que é o super usuário;
+- sudo => É um comando de tem a capacidade de se tornar um super usuário, tipo administrador até mesmo podendo trocar a senha do su* que é o super usuário;
 
-- apt = É a ferramenta mais utilizada para instalar, atualizar e remover software no LINUX;
+- apt => É a ferramenta mais utilizada para instalar, atualizar e remover software no LINUX;
 
-- sudo upgrade =  Você pode atualizar tanto pacotes dentro de uma mesma distribuição quanto atualizar para uma nova distribuição;
+- sudo upgrade =>  Você pode atualizar tanto pacotes dentro de uma mesma distribuição quanto atualizar para uma nova distribuição;
 
-- ls / = Esse é um comando que lista todos os diretório a partir da raiz;
+- ls / => Esse é um comando que lista todos os diretório a partir da raiz;
 
-- pwd = Permite que eu saiba qual o diretório que eu estou atualmente;
+- pwd => Permite que eu saiba qual o diretório que eu estou atualmente;
 
-- mkdir = permite que eu possa criar novos diretórios;
+- mkdir => permite que eu possa criar novos diretórios;
 
-- mkadir -p = Me permite criar diretórios em cascatas;
+- mkadir -p => Me permite criar diretórios em cascatas;
 
-- cd = Nos permite se locomover em diretorios diferentes;
+- cd => Nos permite se locomover em diretorios diferentes;
+
+- cd ../ => Nos permite retroceder um diretório anterior;
+
+- cd && cd ~ => Ao digitar um desses comando faz com que eu volte para a minha home do sistema;
+
+- cp => Permite copiar arquivos e/ou diretórios inteiros;
  
