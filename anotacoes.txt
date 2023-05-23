@@ -27,4 +27,24 @@
 - cd && cd ~ => Ao digitar um desses comando faz com que eu volte para a minha home do sistema;
 
 - cp => Permite copiar arquivos e/ou diretórios inteiros;
+
+- mv => Renomear ou mover um arquivo de um diretório;
+
+- rm => Serve para apagar arquivos ou diretórios internos 
+Obs: Para diretórios inteiros inserir o comando r minusculo -> rm -rf + arquivo;
+
+- rmdir => Apagar apenas diretórios vázios;
+
+Obs: O comando sudo rm - rf /... não deve ser utilizado um hipótese alguma , pois ele apaga o sistema operacional por inteiro até chegar na raiz
+     e por não encontrar mais o que apagar ele se encerra;
+
+- cat => Permite a visualização por completo de um arquivo -> (sudo cat/var/log/syslog);
+
+- head => Permite visualizar o cabeçalho de um arquivo -> (sudo head -n 7/var/log/syslog), dessa forma esse comando lê as 7 primeiras linhas
+          de um arquivo;
+
+- tail => Ao contrário do comando head, esse comando permite visualizar a parte final de um arquivo -> (sudo tail -n 7/var/log/syslog);
+
+- less => Permite que navegue dentro de um arquivo muito grande -> (sudo less /var/log/syslog), com setas para cima e para baixo e é só
+navegar, e quando quiser sair do terminal é só apertar a letra "q"...;
  
