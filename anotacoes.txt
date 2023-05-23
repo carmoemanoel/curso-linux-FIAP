@@ -47,4 +47,13 @@ Obs: O comando sudo rm - rf /... não deve ser utilizado um hipótese alguma , p
 
 - less => Permite que navegue dentro de um arquivo muito grande -> (sudo less /var/log/syslog), com setas para cima e para baixo e é só
 navegar, e quando quiser sair do terminal é só apertar a letra "q"...;
+
+- unzip => Com esse comando eu consigo descompactar um arquivo e se eu passar antes um (-t) antes do arquivo é possível fazer a vizualização do conteúdo do arquivo;
  
+- gzip / bzip =>  São outros dois programas para comprimir arquivo
+
+- sudo ifconfig => Me mostra a interface de rede e com ele eu posso configurar um IP, derrubar uma interface ou até mesmo subi-la novamente;
+
+- nmap => Comando para a vizualização de portas de serviço aberto em um servidor ou em nossa maquina  
+
+
