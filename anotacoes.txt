@@ -56,4 +56,27 @@ navegar, e quando quiser sair do terminal é só apertar a letra "q"...;
 
 - nmap => Comando para a vizualização de portas de serviço aberto em um servidor ou em nossa maquina  
 
+                                                  GERENCIANDO PROCESSOS COM 'ps' E 'TOP'
 
+- ps => Esse comando me retorna uma lista de processos cujo o terminal esteja envolvido. Porém, se e u passar ((ps -a) a resposta mostrada é o processos de outros usuários)
+
+- top => É um monitoramento em tempo real e ele só finaliza quando eu descido interrompe-lo e ele me traz uma listagem melhor
+
+                                                  MANTANDO PROCESSOS COM 'kill'
+                                             
+- kill => Uma vez o processso aberto eu posso dar o comando 'ps' e ele irá listar os processos abertos;
+          Juntamente com o 'pid'...um código de indentificador do processo;
+          Com isso basta dar (lill + 'pid'(código indentificador)) e o processo é interrompido;
+          - kill -SIGSTOP + 'pid' pausa o processo;
+          - kill -SIGCONT + 'pid' continua o processo;
+
+- killall => Sempre com a permissão do administrador (sudo killall + nome do serviço(porcesso)) mata o processo;
+
+                                                  PROCESSOS EM BACKGROUND E SCREEN 
+
+- screnn => Geralmente tem que instalar esse programa e uma vez instalado nós o chamamos ( screnn + o parametro -S) e o nome para um terminal virtual. 
+            Isso me deeixará iniciar um processo sem que eu mate ele ao sair, pois o comando dadp estará atrelado ao terminal virtual;
+
+                                                 
+
+- 
