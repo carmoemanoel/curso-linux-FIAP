@@ -77,6 +77,24 @@ navegar, e quando quiser sair do terminal é só apertar a letra "q"...;
 - screnn => Geralmente tem que instalar esse programa e uma vez instalado nós o chamamos ( screnn + o parametro -S) e o nome para um terminal virtual. 
             Isso me deeixará iniciar um processo sem que eu mate ele ao sair, pois o comando dadp estará atrelado ao terminal virtual;
 
-                                                 
+                                                  ACESSANDO HOSTS REMOTOS COM SSH
 
-- 
+- ssh => Dando o comando Ctrl + c, o meu terminal me traz histórico(opcões) de comandos já digitados, com isso eu terei (ssh nome do ususário@+nº do IP do servidor);
+
+                                                  COPIANDO PARA HOSTS REMOTOS COM SCP
+
+- scp => Mais arquivos a ser copiado para o servidor acrescido do ususário@hostname: dessa forma é feita a transferêcia do arquivo e fazendo o inverso do comando
+         consegue-se trazer um arquivo do servidor para a máquina local;
+
+                                                  COMO SUBIR SERVIÇO SSH SEGURO
+
+- sudo apt install ssh ele instala o serviço de ssh na maquina;
+  sudo /etc/init.d/ssh start -> faz a chamada do serviço;
+  less/etc/ssh/ssh. config -> me dá acesso a algumas configuurações, inclusive trocar a porta(22) onde é padrão e roda o serviço;
+
+                                                  INTRODUÇÃO DO virtual
+
+- vi => Nas novas verssões de uma distribuição Linux o 'vi' já vem instalado, mas caso não é só fazer (sudo apt install vi)
+        Para criar arquivos basta vi nomedoarquivo.txt.
+        Quando quiser sair do arquivo criado basta colocar (:q);
+        E se quiser sair sem salvar o arquivo faça (:q!);
