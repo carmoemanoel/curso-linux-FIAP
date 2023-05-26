@@ -98,3 +98,33 @@ navegar, e quando quiser sair do terminal é só apertar a letra "q"...;
         Para criar arquivos basta vi nomedoarquivo.txt.
         Quando quiser sair do arquivo criado basta colocar (:q);
         E se quiser sair sem salvar o arquivo faça (:q!);
+                                                  
+                                                  VI MODO DE COMANDO E MODO DE EDIÇÃO
+
+- vi novoarquivo.txt faz com que eu fique em modo de comando, porém se apertar a tecla 'i'isso faz com que eu entre em modo de edição do arquivo,
+  assim me permite escrever no documeto. Apertando a tecla 'esc'volta para o modo de comando e ainda se eu estiver em modo de edição apertando a tecla 'o'
+  isso me leva para a linha de baixo do documento;
+
+                                                  VI NUMERAÇÃO DE LINHAS E NAVEGAÇÃO
+
+** já em modo de comando em algum arquivo eu posso passar -> : set num e isso me habilita os números das linha no terminal e se colocar -> : o número correspondente a linha
+  no terminal ele leva o cursor para a linha digitada; 
+
+                                                  VI SALVANDO ARQUIVO
+
+** Acessando o arquivo -> vi novoarquivo.txt teclando 'i' para entrar em modo de edição e depois 'esc' para ir para o modo de comando e depois ': w' isso salva o documento, 
+ mas eu me mantenho no terminal. Agora se se eu passar ':wq'eu salvo o arquivo em questão e consequentemente eu saio do terminal;
+
+                                                  VI COPIAR, COLAR E APAGAR TEXTOS
+
+** Com o arquivo aberto e em linha de comando, basta eu mover com as setas  e ir até a ser copiada e pressionar 'yy' e ele copia para a àrea de transferêcia
+e o 'p' cola na linha abaixo. 'wwww' copia um trexo maior de linhas  e seu eu usar 'd' eu apago trechos do meu arquivo,
+
+Se eu apertar 'U' é como seu estivesse usando o Ctrl+z para desfazer algo, mas isso só funciona para o ultimo comando digitado;
+
+                                                  VI LOCALIZANDO E SUBSTITUINDO PALAVRAS 
+
+** Em modo de comando e no arquivo em questão, basta eu apertar a tecla '/' e digitar a palavra a ser perquisada e navego entre elas apertando 'n'
+para ir para a próxima linha  e 'N' para retornar ('n' 'N' são os modos de navegação)
+
+Digitando :/s + a palavra a ser substituida ele substitui pela a nova palavra digitada, mas se eu colocar gc ele substitui todas a palvras, pois o 'g' é um parâmetro global e 'c' confirma a ação;
