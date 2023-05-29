@@ -1,8 +1,7 @@
-     Principais Comandos no Linux
+                                                  COMANDOS INICIAIS LINUX
 
-- man => Esse comando é o equivalente ao --help, ele traz toda a forma de manual do sistema;
-
-- --help => é um comando que nos presta algum tipo de ajuda;
+- man => man + o comando que eu desejo execultar me traz uma descrição completa sobre esse comando, ex: man ls descreve o comando ls. Uma outra maneira 
+         de descrever o coando ls em questão e digitar ls --help;
 
 - su => Esse comando é dos super ususário ele é que da as permissões de acesso ao sistema;
 
@@ -10,7 +9,9 @@
 
 - apt => É a ferramenta mais utilizada para instalar, atualizar e remover software no LINUX;
 
-- sudo upgrade =>  Você pode atualizar tanto pacotes dentro de uma mesma distribuição quanto atualizar para uma nova distribuição;
+- apt update =>  Você pode atualizar tanto pacotes dentro de uma mesma distribuição quanto atualizar para uma nova distribuição;
+
+                                                  GERENCIAMENTO DE USUÁRIOS
 
 - ls / => Esse é um comando que lista todos os diretório a partir da raiz;
 
