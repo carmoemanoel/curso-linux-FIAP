@@ -66,7 +66,7 @@ navegar, e quando quiser sair do terminal é só apertar a letra "q"...;
                                              
 - kill => Uma vez o processso aberto eu posso dar o comando 'ps' e ele irá listar os processos abertos;
           Juntamente com o 'pid'...um código de indentificador do processo;
-          Com isso basta dar (lill + 'pid'(código indentificador)) e o processo é interrompido;
+          Com isso basta dar (kill + 'pid'(código indentificador)) e o processo é interrompido;
           - kill -SIGSTOP + 'pid' pausa o processo;
           - kill -SIGCONT + 'pid' continua o processo;
 
